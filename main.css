@@ -48,28 +48,29 @@ header {
   background-color: #2B57A1;
   /* dark blue */
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 2rem;
   font-family: 'Poppins', sans-serif;
-  line-height: 8rem;
+  line-height: 2rem;
   margin: 1rem;
 }
 
 .dog-showcase {
-  width: 40rem;
-  height: 40rem;
+  width: auto;
+  height: auto;
   border-radius: 50%;
   background-color: #FFFFFF;
   border: 0.8rem solid #537AD3;
 }
 
 .dog-showcase img {
-  width: 30rem;
-  margin: -4rem 5rem 0 5rem;
+  width: 30vw;
+  max-width: 125%;
 }
 
 section {
