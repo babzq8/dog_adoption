@@ -61,8 +61,6 @@ h1 {
 }
 
 .dog-showcase {
-  width: auto;
-  height: auto;
   border-radius: 50%;
   background-color: #FFFFFF;
   border: 0.8rem solid #537AD3;
@@ -179,6 +177,19 @@ footer {
 
 @media screen and (max-width: 400px) {}
 
-@media screen and (min-width: 401px) and (max-width: 960px) {}
+@media screen and (min-width: 401px) and (max-width: 960px) {
+  .nav-links a {
+    display: inline;
+  }
+
+  header {
+    flex-direction: row;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
 
 @media screen and (min-width: 961px) {}
