@@ -89,7 +89,7 @@ section {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
@@ -100,7 +100,7 @@ section h2 {
 
 .pups-container {
   width: 100%;
-  margin: 0 1rem;
+  margin: 0;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -192,9 +192,9 @@ footer {
 
 @media screen and (max-width: 400px) {}
 
-@media screen and (min-width: 401px) and (max-width: 960px) {
+@media screen and (min-width: 450px) and (max-width: 960px) {
   .logo {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .nav-links a {
@@ -205,8 +205,16 @@ footer {
     flex-direction: row;
   }
 
+  .dog-showcase {
+    margin-right: 2rem;
+  }
+
+  #main div:first-of-type {
+    margin: 2rem;
+  }
+
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 3rem;
   }
 
@@ -217,12 +225,13 @@ footer {
   }
 
   .pup-wrapper {
-    width: 45%;
+    width: 30vw;
+    height: 23rem;
   }
 
   footer {
     flex-direction: row;
-    font-size: 80%;
+    font-size: 60%;
   }
 }
 
